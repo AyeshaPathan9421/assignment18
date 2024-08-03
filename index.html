@@ -6,13 +6,37 @@
     <title>Document</title>
     <style>
         .box{
-            background-color: #ff9999;
+            background-color: #ffe6ff;
             width: 550px;
-            height: 350px;
+            height: 300px;
             margin: 45px;
             padding: 10px;
-            border: 2px solid #e60000;
-            box-shadow: 0 0 50px 5px #ff99ff;
+            border: 2px solid #ff00ff;
+            box-shadow: 0 0 50px 5px #ff99ff
+            ;
+        }
+
+        .box:hover{
+            box-shadow: 0 0 50px 5px #4da3ff;
+            background-color:#e6f2ff;
+            border: 5px double #33ccff;
+            transition:0.5sec;
+
+        }
+
+        .btn{
+            background-color: #1affff;
+            color: #ffffff;
+            padding: 5px 10px;
+            border-radius:20px ;
+        }
+
+        .btn:hover{
+            background-color: #ff99c2;
+            color: aliceblue;
+            border-radius: 0px 20px 0px 20px;
+            transform: 5px;
+        
         }
     </style>
 </head>
@@ -22,5 +46,8 @@
 
 
     </div>
+    <button class="btn">
+        are you intrested
+    </button>
 </body>
 </html>
